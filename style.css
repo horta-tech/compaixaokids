@@ -1,0 +1,342 @@
+/* Base Settings */
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+body {
+  position: relative !important;
+  min-height: 100vh !important;
+  padding-bottom: 100px !important;
+  background-color: rgb(240, 240, 240);
+}
+
+/* Navbar */
+
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-wrapper {
+  height: 70px;
+}
+
+.text-logo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 12px;
+  font-size: 22px;
+}
+
+.nav-item {
+
+}
+
+/* Hero Banner */
+
+#banner {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-info {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 400px;
+}
+
+.banner-text {
+  text-align: right;
+  align-self: stretch;
+  padding: 0;
+  margin: 4px 0 0 0;
+}
+
+.info-logo {
+  width: 100%;
+}
+
+.call-to-action {
+  color: white;
+  padding: 4px 40px;
+  background-color: #004498;
+  border-radius: 8px;
+  margin-top: 32px;
+  border: none;
+  font-size: 20px;
+}
+
+/* Sobre */
+
+#sobre {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.content-square {
+  width: 25%;
+  padding: 8px 20px;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px
+}
+
+.sobre-icon {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.sobre-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  height: 50px;
+}
+.yellow-bg {
+  background-color: #f6c200;
+}
+
+.blue-bg {
+  background-color: #004498;
+}
+
+.pink-bg {
+  background-color: #da0080;
+}
+
+.cian-bg {
+  background-color: #009594;
+}
+
+/* Lumi */
+
+#lumi {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.lumi-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.lumi-info {
+  padding: 32px;
+  width: 400px;
+}
+
+.lumi-info p {
+  font-size: 18px;
+}
+
+.lumi-logo {
+  width: 200px;
+}
+
+.lumi-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 100px;
+}
+
+.lumi-card {
+  border: 3px solid #f6c200;
+  padding: 16px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+}
+
+.lumi-card-image {
+  height: 50%;
+  margin-bottom: 12px;
+}
+
+/* Canais */
+
+#canais {
+  padding: 40px;
+  color: white;
+}
+
+.channel-content {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.youtube-embed {
+  width: 400px;
+  height: 250px;
+  background-color: red;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.social-media {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #004498 !important;
+}
+
+/* Contato */
+
+#contato {
+  padding: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  margin: 12px auto;
+}
+
+.form-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #f6c200;
+  margin: 8px;
+  color: #004498;
+  font-weight: bold;
+}
+
+.form-input::placeholder {
+  color: #004498;
+  font-weight: bold;
+}
+
+label {
+  margin: 8px;
+}
+
+/* Sticky Footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.footer-logo {
+  height: 80px;
+}
+
+
+@media (max-width: 1000px ) {
+
+  .nav-item {
+    padding: 0 8px;
+    font-size: 18px;
+  }
+  #banner {
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+  }
+
+  .main-logo {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .banner-info {
+    align-items: center;
+    width: 300px;
+  }
+
+  .banner-text {
+    text-align: center;
+    align-self: stretch;
+    padding: 0;
+    margin: 4px 0 0 0;
+  }
+
+  #sobre {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content-square {
+    width: 100%;
+  }
+
+  .lumi-content {
+    padding: 8px;
+    flex-direction: column;
+  }
+
+  .lumi-info {
+    width: auto;
+    text-align: justify;
+  }
+
+  .lumi-cards {
+    flex-direction: column;
+  }
+
+  .lumi-card {
+    margin: 12px;
+  }
+
+  .channel-content {
+    flex-direction: column;
+  }
+
+  .youtube-embed {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 24px;
+  }
+}
