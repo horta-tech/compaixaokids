@@ -116,6 +116,7 @@ h1 {
     margin-top: 32px;
     border: none;
     font-size: 20px;
+    width:100%;
 }
 
 
@@ -233,7 +234,7 @@ h1 {
 .channel-content {
     margin-top: 32px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -322,21 +323,24 @@ label {
     }
     #banner {
         flex-direction: column;
-        justify-content: stretch;
-        align-items: stretch;
-        height: 500px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         padding: 20px ;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('images/happy.jpg')no-repeat center center;
     }
-    picture {
-      background-color: none;
+    #banner picture {
+      background-color: rgba(255, 255, 255, 0);
+      padding:0px;
     }
     .main-logo {
         width: 70%;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
     .banner-info {
         align-items: center;
         width: 300px;
+        background-color: rgba(255, 255, 255, 0);
     }
     .banner-text {
         text-align: center;
