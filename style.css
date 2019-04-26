@@ -65,25 +65,32 @@ h1 {
     width: 100%;
     height: 600px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    padding: 100px;
     justify-content: space-around;
-    background: url('/images/happy.jpg')no-repeat center center;
+    background: url('images/happy.jpg')no-repeat center center;
+}
+
+.main-logo {
+  padding-left: 6px;
+  padding-bottom: 20px;
 }
 
 .banner-info {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     flex-direction: column;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 50%;
-    padding: 4%;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 #banner>picture {
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 50%;
-    padding: 3%;
+    border-radius: 10px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,6 +105,7 @@ h1 {
 
 .info-logo {
     width: 100%;
+    margin-bottom: 12px;
 }
 
 .call-to-action {
@@ -314,8 +322,13 @@ label {
     }
     #banner {
         flex-direction: column;
-        justify-content: center;
+        justify-content: stretch;
+        align-items: stretch;
         height: 500px;
+        padding: 20px ;
+    }
+    picture {
+      background-color: none;
     }
     .main-logo {
         width: 70%;
