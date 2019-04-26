@@ -72,8 +72,8 @@ h1 {
 }
 
 .main-logo {
-  padding-left: 6px;
-  padding-bottom: 20px;
+    padding-left: 6px;
+    padding-bottom: 20px;
 }
 
 .banner-info {
@@ -116,7 +116,7 @@ h1 {
     margin-top: 32px;
     border: none;
     font-size: 20px;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -155,17 +155,17 @@ h1 {
 }
 
 .blue-bg {
-    background-color: #48c6ef;
+    background-color: #668ec1;
     //background-image: linear-gradient(to right, #48c6ef, #6f86d6);
 }
 
 .pink-bg {
-    background-color: #ffc3a0;
+    background-color: #ec7fbf;
     //background-image: linear-gradient(to right, #ffc3a0, #ffafbd);
 }
 
 .cian-bg {
-    background-color: #50A7C2;
+    background-color: #00c9c6;
     //background-image: linear-gradient(to right, #B7F8DB, #50A7C2);
 }
 
@@ -305,10 +305,10 @@ label {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    padding: 1%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #afca54;
 }
 
@@ -326,12 +326,12 @@ label {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        padding: 20px ;
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('images/happy.jpg')no-repeat center center;
+        padding: 20px;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('images/happy.jpg')no-repeat center center;
     }
     #banner picture {
-      background-color: rgba(255, 255, 255, 0);
-      padding:0px;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 0px;
     }
     .main-logo {
         width: 70%;
